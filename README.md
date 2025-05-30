@@ -1,58 +1,43 @@
-# Lumain Inc. Website
+# Lumain-high
 
-A modern, interactive website for Lumain Inc., an AI strategy company, built with inspiration from Obys Agency's design aesthetic.
+Lumain Inc.의 공식 웹사이트입니다.
 
-## Features
+## 특징
 
-- Elegant preloader with Korean messaging
-- Smooth scroll animations using Locomotive Scroll
-- GSAP-powered animations and transitions
-- Custom cursor interactions
-- Responsive design
-- Korean language support
+- 반응형 디자인
+- 모던한 UI/UX
+- 부드러운 애니메이션 효과
+- 커스텀 커서
+- 스크롤 기반 인터랙션
 
-## Technologies Used
+## 기술 스택
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
-- GSAP (GreenSock Animation Platform)
-- Locomotive Scroll
-- SplitType.js
+- JavaScript
+- GSAP (애니메이션)
+- Locomotive Scroll (스크롤 효과)
+- SplitType (텍스트 애니메이션)
 
-## Setup
+## 시작하기
 
-1. Install dependencies:
+1. 저장소를 클론합니다:
 ```bash
-npm install
+git clone https://github.com/mio-modu/Lumain-high.git
 ```
 
-2. Start the development server:
+2. 프로젝트 디렉토리로 이동합니다:
 ```bash
-npm start
+cd Lumain-high
 ```
 
-3. Build for production:
+3. 서버를 실행합니다:
 ```bash
-npm run build
+node simple-server.js
 ```
 
-## Project Structure
+4. 브라우저에서 `http://localhost:4000`으로 접속합니다.
 
-- `index.html` - Main HTML structure
-- `styles.css` - Styling and animations
-- `main.js` - JavaScript functionality and animations
-- `package.json` - Project dependencies and scripts
+## 라이선스
 
-## Browser Support
-
-The website is optimized for modern browsers that support:
-- CSS Grid
-- CSS Custom Properties
-- ES6+ JavaScript features
-- CSS Animations
-
-## Credits
-
-- Font: Noto Sans KR (Google Fonts)
-- Design inspiration: Obys Agency 
+MIT License

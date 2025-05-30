@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumain Inc. - AI 전략 설계자</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <!-- SplitType -->
+    <script src="https://unpkg.com/split-type"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-text">
+            <span>당신의 가능성을 확장하는 여정이 시작됩니다...</span>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Main Content -->
+    <main data-scroll-container>
+        <!-- Hero Section -->
+        <section class="hero" data-scroll-section>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="split-text">Lumain <span class="inc">Inc.</span></h1>
+                    <h2 class="split-text">인간 중심의 AI 전략 설계자</h2>
+                    <p class="hero-description split-text">
+                        우리는 인간의 잠재력을 확장하는 AI 전략을 설계합니다.<br>
+                        윤리적이고 책임감 있는 AI 생태계를 통해<br>
+                        더 나은 미래를 만들어갑니다.
+                    </p>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-element" data-scroll data-scroll-speed="1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section class="philosophy" data-scroll-section>
+            <div class="section-content">
+                <h2 class="section-title"><span>우리의</span>철학</h2>
+                <div class="philosophy-grid">
+                    <div class="philosophy-item" data-scroll data-scroll-speed="0.5">
+                        <div class="philosophy-icon">🌱</div>
+                        <h3>인간 중심</h3>
+                        <p>기술은 인간을 위한 도구입니다.<br>우리는 AI를 통해 인간의 창의성과 잠재력을 극대화합니다.</p>
+                    </div>
+                    <div class="philosophy-item" data-scroll data-scroll-speed="0.7">
+                        <div class="philosophy-icon">⚖️</div>
+                        <h3>윤리적 책임</h3>
+                        <p>모든 AI 시스템은 공정하고 투명하며, 인간의 가치를 존중해야 합니다.</p>
+                    </div>
+                    <div class="philosophy-item" data-scroll data-scroll-speed="0.9">
+                        <div class="philosophy-icon">🚀</div>
+                        <h3>미래 지향</h3>
+                        <p>오늘의 혁신이 내일의 표준이 됩니다. 우리는 지속 가능한 AI 생태계를 구축합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" data-scroll-section>
+            <div class="section-content">
+                <h2 class="section-title"><span>주요</span>프로젝트</h2>
+                <div class="projects-grid">
+                    <div class="project-item" data-scroll data-scroll-speed="0.5">
+                        <div class="project-content">
+                            <span class="project-category">AI 윤리</span>
+                            <h3>AI 윤리 프레임워크</h3>
+                            <p>기업을 위한 맞춤형 AI 윤리 가이드라인 개발</p>
+                            <div class="project-details">
+                                <p>공정성, 투명성, 책임성을 중심으로 한 AI 시스템 설계 방법론</p>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <img src="images/ethics.jpg" alt="AI 윤리 프레임워크">
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-scroll data-scroll-speed="0.7">
+                        <div class="project-content">
+                            <span class="project-category">자동화</span>
+                            <h3>AI 기반 자동화 솔루션</h3>
+                            <p>반복적인 업무 프로세스를 AI로 자동화하여<br>생산성과 효율성을 극대화합니다.</p>
+                            <div class="project-details">
+                                <p>• 업무 프로세스 분석 및 최적화<br>• 맞춤형 자동화 솔루션 개발<br>• 지속적인 성능 모니터링 및 개선</p>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <img src="images/automation.jpg" alt="AI 자동화 솔루션">
+                        </div>
+                    </div>
+
+                    <div class="project-item" data-scroll data-scroll-speed="0.9">
+                        <div class="project-content">
+                            <span class="project-category">생태계</span>
+                            <h3>AI 생태계 구축</h3>
+                            <p>지속 가능한 AI 생태계 설계 및 구현</p>
+                            <div class="project-details">
+                                <p>다양한 이해관계자가 참여하는 건강한 AI 생태계 조성</p>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <img src="images/ecosystem.jpg" alt="AI 생태계 구축">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section class="history" data-scroll-section>
+            <div class="section-content">
+                <h2 class="section-title">AI 여정의 기록</h2>
+                <div class="history-timeline">
+                    <div class="timeline-item">
+                        <span class="year">2020</span>
+                        <p>Lumain Inc. 설립</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="year">2021</span>
+                        <p>첫 AI 윤리 프레임워크 출시</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="year">2022</span>
+                        <p>글로벌 AI 전략 파트너십 체결</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="year">2023</span>
+                        <p>AI 생태계 혁신상 수상</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" data-scroll-section>
+            <div class="section-content">
+                <h2 class="section-title">함께 만들어갈 미래</h2>
+                <p class="contact-text">AI의 미래를 함께 설계하세요</p>
+                <a href="mailto:contact@lumain.ai" class="contact-button">문의하기</a>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // GSAP plugins
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Custom cursor
+        const cursor = document.querySelector('.cursor');
+        const cursorFollower = document.querySelector('.cursor-follower');
+
+        let mouseX = 0;
+        let mouseY = 0;
+        let cursorX = 0;
+        let cursorY = 0;
+        let followerX = 0;
+        let followerY = 0;
+
+        // Mouse move event
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        // Cursor animation
+        function updateCursor() {
+            // Main cursor
+            cursorX = mouseX;
+            cursorY = mouseY;
+            cursor.style.transform = `translate(${cursorX}px, ${cursorY}px)`;
+
+            // Follower cursor with smooth follow
+            followerX += (mouseX - followerX) * 0.15;
+            followerY += (mouseY - followerY) * 0.15;
+            cursorFollower.style.transform = `translate(${followerX}px, ${followerY}px)`;
+
+            requestAnimationFrame(updateCursor);
+        }
+
+        // Start cursor animation
+        updateCursor();
+
+        // Initialize Locomotive Scroll
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true,
+            multiplier: 1,
+            lerp: 0.05
+        });
+
+        // Update ScrollTrigger when locomotive scroll updates
+        scroll.on('scroll', () => {
+            ScrollTrigger.update();
+        });
+
+        // Preloader animation
+        window.addEventListener('load', () => {
+            const preloader = document.querySelector('.preloader');
+            const main = document.querySelector('main');
+            
+            gsap.to(preloader, {
+                opacity: 0,
+                duration: 1,
+                ease: 'power2.inOut',
+                onComplete: () => {
+                    preloader.style.display = 'none';
+                    gsap.to(main, {
+                        opacity: 1,
+                        duration: 1,
+                        ease: 'power2.inOut'
+                    });
+                }
+            });
+        });
+
+        // Text animations
+        const splitTexts = document.querySelectorAll('.split-text');
+        splitTexts.forEach(text => {
+            const split = new SplitType(text, { types: 'chars, words' });
+            
+            gsap.from(split.chars, {
+                opacity: 0,
+                y: 50,
+                duration: 0.8,
+                stagger: 0.02,
+                ease: 'power4.out',
+                clearProps: 'all'
+            });
+        });
+
+        // Section animations
+        const sections = document.querySelectorAll('section');
+        sections.forEach((section, index) => {
+            const sectionContent = section.querySelector('.section-content');
+            const visualElements = section.querySelectorAll('.visual-element');
+            
+            gsap.from(sectionContent, {
+                scrollTrigger: {
+                    trigger: section,
+                    start: 'top center+=100',
+                    toggleActions: 'play none none reverse'
+                },
+                y: 50,
+                opacity: 0,
+                duration: 1,
+                ease: 'power2.out'
+            });
+
+            visualElements.forEach(element => {
+                gsap.from(element, {
+                    scrollTrigger: {
+                        trigger: section,
+                        start: 'top center+=100',
+                        toggleActions: 'play none none reverse'
+                    },
+                    scale: 0.8,
+                    opacity: 0,
+                    duration: 1.5,
+                    ease: 'power2.out',
+                    delay: 0.3
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

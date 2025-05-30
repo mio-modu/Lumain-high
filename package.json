@@ -2,10 +2,9 @@
   "name": "lumain-website",
   "version": "1.0.0",
   "description": "Lumain Inc. - AI Strategy Company Website",
-  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url ./",
     "dev": "parcel index.html"
   },
   "dependencies": {

@@ -2,18 +2,18 @@
   "name": "lumain-website",
   "version": "1.0.0",
   "description": "Lumain Inc. - AI Strategy Company Website",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "gsap": "^3.12.5",
-    "locomotive-scroll": "^5.0.0-beta.11",
+    "gsap": "^3.12.2",
+    "locomotive-scroll": "^4.1.4",
     "split-type": "^0.3.4"
   },
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.9.3"
   }
 }
